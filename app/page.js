@@ -6,10 +6,11 @@ export default function BoxBasic() {
   return (
     <main>
       <Box component="section" className="border border-gray-800 m-5 text-center">
-        <h1>Stock Management v1.0</h1>
+        <h1>Stock Management </h1>
         <ul>
-          <li><a href="/app/stock/product">Products</a></li>
-          <li><a href="/app/stock/category">Category</a></li>
+          <li><a href="/fin-customer/product">Products</a></li>
+          <li><a href="/fin-customer/category">Category</a></li>
+          <li><a href="/fin-customer/customer">Customer</a></li>
         </ul>
 
       </Box>

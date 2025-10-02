@@ -1,5 +1,5 @@
 export default async function Home({ params }) {
-  const API_BASE = "http://localhost:3000/app/stock/api";
+  const API_BASE = "http://localhost:3000/fin-customer/api";
 
   try {
     const res = await fetch(`${API_BASE}/product/${params.id}`, { cache: "no-store" });
